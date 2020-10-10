@@ -20,3 +20,8 @@ sample request for _**/api/v1/get**_
 ```
 curl --location --request GET 'http://127.0.0.1:5000/api/v1/get'
 ```
+
+sample request for _**/api/v1/auto-insert**_
+```
+curl --location --request GET 'http://127.0.0.1:5000/api/v1/auto-insert'
+```

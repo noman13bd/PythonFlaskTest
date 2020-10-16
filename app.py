@@ -29,3 +29,6 @@ def post_insert():
 @app.route('/api/v1/get')
 def get_ll():    
     return ll1.print_vals()
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')

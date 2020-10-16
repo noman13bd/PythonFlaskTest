@@ -17,9 +17,6 @@ def auto_insert():
         
     return ll.print_vals()
 
-ll1 = LinkedList()
-json_data = None
-
 @app.route('/api/v1/insert', methods=['POST'])
 def post_insert():
     data = json.loads(request.data.decode('utf-8'))
@@ -31,4 +28,6 @@ def get_ll():
     return ll1.print_vals()
 
 if __name__ == "__main__":
+    ll1 = LinkedList()
+    json_data = None
     app.run(host='0.0.0.0')
